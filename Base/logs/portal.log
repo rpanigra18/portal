@@ -1,0 +1,276 @@
+[2018-12-21 08:58:54] info : *************xx*************
+[2018-12-21 08:58:54] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-21 08:59:06] info : Executing 1 - Verify the dashboard page Title is Kiosk Portal
+[2018-12-21 08:59:06] info : Test 1 Passed
+[2018-12-21 08:59:06] info : Executing 2 - User have access to Lexar 103
+[2018-12-21 08:59:09] info : Test 2 Passed
+[2018-12-21 08:59:09] info : Executing 3 - Add a division for the User
+[2018-12-21 08:59:12] info : Fake Division from Div Test --> Jewelery
+[2018-12-21 08:59:16] info : New Division is added
+[2018-12-21 08:59:18] info : Test 3 Passed
+[2018-12-21 08:59:18] info : Executing 4 - Delete the division added for the User
+[2018-12-21 08:59:28] info : Test 4 Passed
+[2018-12-21 08:59:29] info : Quitting Browser
+[2018-12-21 08:59:29] info : *************xx*************
+[2018-12-21 08:59:29] info : *************xx*************
+[2018-12-21 08:59:29] info : Verificaiton on Add Contacts -> True
+[2018-12-21 08:59:42] info : Executing -> 1 - Verify user can add a contact
+[2018-12-21 08:59:45] info : Fake contact to add -> Mikel
+[2018-12-21 08:59:52] info : Fake Contact added on the page verified --> Mikel
+[2018-12-21 08:59:52] info : Test 1 Passed
+[2018-12-21 08:59:52] info : Executing -> 2 - Verify user can search the contact with FirstName
+[2018-12-21 08:59:54] info : Test 2 Passed
+[2018-12-21 08:59:54] info : Executing -> 3 - Verify user can delete a contact
+[2018-12-21 09:00:03] info : Fake Contact added on the page verified --> Mikel
+[2018-12-21 09:00:04] error : 
+Message: Contact could not be deleted: expected 'True' to equal 'False'
+[2018-12-21 09:00:04] error : Test 3 Failed
+[2018-12-21 09:00:05] info : Quitting Browser
+[2018-12-21 09:00:05] info : *************xx*************
+[2018-12-21 09:00:05] info : *************xx*************
+[2018-12-21 09:00:05] info : Adding a Kiosk (delete not available in portal) -> True
+[2018-12-21 09:00:15] info : Executing Test 1 - Add a Kiosk
+[2018-12-21 09:00:19] info : Fake Division from Div Test --> Liaison
+[2018-12-21 09:00:24] info : Fake Market from Market Page --> Handcrafted Frozen Table
+[2018-12-21 09:00:33] info : Fake Location from Location page --> reintermediate
+[2018-12-21 09:00:46] info : Fake Machine added --> Saudi Arabia
+[2018-12-21 09:00:51] info : Test 1 Passed
+[2018-12-21 09:00:52] info : Quitting Browser
+[2018-12-21 09:00:52] info : *************xx*************
+[2018-12-21 09:00:52] info : *************xx*************
+[2018-12-21 09:00:52] info : Verifications on Maintenance Menu - AttractLoop -> True
+[2018-12-21 09:01:03] info : Executing Test 1 - Verfiy available AttractLoop grid populates
+[2018-12-21 09:01:03] error : 
+Message: logger is not defined
+[2018-12-21 09:01:03] error : Test 1 Failed
+[2018-12-21 09:01:04] info : Quitting Browser
+[2018-12-21 09:01:04] info : *************xx*************
+[2018-12-21 09:01:05] info : *************xx*************
+[2018-12-21 09:01:05] info : Verifications on Maintenance Menu - KDI -> True
+[2018-12-21 09:01:14] info : Executing Test 1 - Verfiy available Kdi grid populates
+[2018-12-21 09:01:17] info : Test 1 Passed
+[2018-12-21 09:01:17] info : Executing Test 2 - Verify new Kdi can be added
+[2018-12-21 09:01:19] info : Row Count of KDI version page -> 41
+[2018-12-21 09:01:20] error : 
+Message: Added KDI does'nt exist: expected 'False' to equal 'True'
+[2018-12-21 09:01:20] error : Test 2 Failed
+[2018-12-21 09:01:21] info : Quitting Browser
+[2018-12-21 09:01:21] info : *************xx*************
+[2018-12-21 09:01:21] info : *************xx*************
+[2018-12-21 09:01:21] info : Verifications on Maintenance Menu - KDog -> True
+[2018-12-21 09:01:31] info : Executing Test 1 - Verfiy available KDog grid populates
+[2018-12-21 09:01:34] info : Test 1 Passed
+[2018-12-21 09:01:34] info : Executing Test 2 - Verify new KDog can be added
+[2018-12-21 09:01:36] info : Row Count of KDog version page -> 40
+[2018-12-21 09:01:37] error : 
+Message: Added KDI does'nt exist: expected 'False' to equal 'True'
+[2018-12-21 09:01:37] error : Test 2 Failed
+[2018-12-21 09:01:38] info : Quitting Browser
+[2018-12-21 09:01:38] info : *************xx*************
+[2018-12-21 09:01:38] info : *************xx*************
+[2018-12-21 09:01:38] info : Verify adding/deleting a new Location-> True
+[2018-12-21 09:01:51] info : Executing 1 - Add a new Location
+[2018-12-21 09:01:54] info : Fake Division from Div Test --> Incredible
+[2018-12-21 09:01:59] info : Fake Market from Market Page --> Wooden
+[2018-12-21 09:02:09] info : Fake Location from Location page --> Awesome Concrete Bike
+[2018-12-21 09:02:20] error : 
+Message: New Location was not added: expected 'False' to equal 'True'
+[2018-12-21 09:02:20] error : Test 1 Failed
+[2018-12-21 09:02:21] info : Quitting Browser
+[2018-12-21 09:02:21] info : *************xx*************
+[2018-12-21 09:02:21] info : *************xx*************
+[2018-12-21 09:02:21] info : Verifications on client list and Add/Delete a Market -> True
+[2018-12-21 09:02:33] info : Executing 1 - Add a Market
+[2018-12-21 09:02:37] info : Fake Division from Div Test --> policy
+[2018-12-21 09:02:42] info : Fake Market from Market Page --> info-mediaries
+[2018-12-21 09:02:49] info : Test 1 Passed
+[2018-12-21 09:02:49] info : Executing 2 - Delete a Market
+[2018-12-21 09:02:55] info : Test 2 Passed
+[2018-12-21 09:02:57] error : Error occured in deleteTempDiv function on newMarketPage module
+[2018-12-21 09:02:58] info : Quitting Browser
+[2018-12-21 09:02:58] info : *************xx*************
+[2018-12-21 09:02:59] info : *************xx*************
+[2018-12-21 09:02:59] info : Verifications on Search - Event Search page -> True
+[2018-12-21 09:03:09] info : Executing Test 1 - Verify the current event search pulls the current events
+[2018-12-21 09:03:16] info : Test 1 Passed
+[2018-12-21 09:03:16] info : Executing Test 2 - Verify all the events are OPEN
+[2018-12-21 09:03:17] info : Number of events loaded on the page -> 0
+[2018-12-21 09:03:18] info : Quitting Browser
+[2018-12-21 09:03:18] info : *************xx*************
+[2018-12-21 09:03:18] info : Quitting Browser
+[2018-12-21 09:03:18] info : *************xx*************
+[2018-12-21 09:03:43] info : Quitting Browser
+[2018-12-21 09:03:43] info : *************xx*************
+[2018-12-21 09:03:44] info : *************xx*************
+[2018-12-21 09:03:44] info : Verifications on Landing Page -> True
+[2018-12-21 09:03:51] info : Executing 1 - Validate Page Title is Kiosk Portal
+[2018-12-21 09:03:51] info : Test 1 Passed
+[2018-12-21 09:03:51] info : Executing 2 - Invalid credentials entered
+[2018-12-21 09:03:55] info : Test 2 Pased
+[2018-12-21 09:03:55] info : Executing 3 - Valid Login to the application
+[2018-12-21 09:04:02] info : Test 3 Passed
+[2018-12-21 09:04:03] info : Quitting Browser
+[2018-12-21 09:04:03] info : *************xx*************
+[2018-12-21 09:04:03] info : *************xx*************
+[2018-12-21 09:04:03] info : Verififcation on Kiosk Reports -> True
+[2018-12-21 09:04:14] info : Running Test 1 - Verfiy kiosk reports grid loads
+[2018-12-21 09:04:17] info : Test 1 Passed
+[2018-12-21 09:04:17] info : Running Test 2 - Verify kiosk count adds up as expected in the summary
+[2018-12-21 09:04:18] info : Row Count of reoprt grid page -> 5
+[2018-12-21 09:04:18] info : Active Kiosk count for client > 23
+[2018-12-21 09:04:18] info : Inactive Kiosk Count for client > 3
+[2018-12-21 09:04:18] info : Pending Kiosk Count for client > 0
+[2018-12-21 09:04:18] info : Test 2 Passed
+[2018-12-21 09:04:19] info : Quitting Browser
+[2018-12-21 09:04:19] info : *************xx*************
+[2018-12-21 09:04:19] info : *************xx*************
+[2018-12-21 09:04:19] info : *************xx*************
+[2018-12-21 09:04:19] info : Verifications on Search - Session Search page -> True
+[2018-12-21 09:04:35] info : Executing Test 1 - Verify the session search pulls the session search result for a week
+[2018-12-21 09:04:41] info : Test 1 Passed
+[2018-12-21 09:04:41] info : Executing Test 2 - Verify session events add up for all payment types
+[2018-12-21 09:04:43] info : Total number of events loaded for the client for a week -> 90
+[2018-12-21 09:04:48] info : Number of Cash Events loaded on the page -> 0
+[2018-12-21 09:04:53] info : Number of Card Events loaded on the page -> 0
+[2018-12-21 09:04:58] info : Number of Check Events loaded on the page -> 0
+[2018-12-21 09:05:04] info : Number of Unattempted Events loaded on the page -> 90
+[2018-12-21 09:05:04] info : Test 2 Passed
+[2018-12-21 09:05:05] info : Quitting Browser
+[2018-12-21 09:05:05] info : *************xx*************
+[2018-12-21 09:05:05] info : Quitting Browser
+[2018-12-21 09:05:05] info : *************xx*************
+[2018-12-21 09:19:55] info : *************xx*************
+[2018-12-21 09:19:55] info : Verifications on client list and Add/Delete a division -> False
+[2018-12-21 09:19:55] info : *************xx*************
+[2018-12-21 09:19:55] info : Verificaiton on Add Contacts -> True
+[2018-12-21 09:20:05] info : Executing -> 1 - Verify user can add a contact
+[2018-12-21 09:20:09] info : Fake contact to add -> Meggie
+[2018-12-21 09:20:09] error : Error occured in addContact function on addContact module
+[2018-12-21 09:20:09] error : 
+Message: Error: CombolistValue failed
+    at Page.setComboListValue (D:\PortalAutomationJS\portal\kioskPortal\test\Base\Base.js:257:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-12-21 09:20:09] error : Test 1 Failed
+[2018-12-21 09:20:09] info : Skipping Test 2
+[2018-12-21 09:20:09] info : Skipping Test 3
+[2018-12-21 09:20:10] info : Quitting Browser
+[2018-12-21 09:20:10] info : *************xx*************
+[2018-12-21 09:20:10] info : *************xx*************
+[2018-12-21 09:20:10] info : Adding a Kiosk (delete not available in portal) -> True
+[2018-12-21 09:20:20] info : Executing Test 1 - Add a Kiosk
+[2018-12-21 09:20:23] info : Fake Division from Div Test --> web services
+[2018-12-21 09:20:28] info : Fake Market from Market Page --> Dynamic
+[2018-12-21 09:20:37] info : Fake Location from Location page --> lavender
+[2018-12-21 09:20:51] info : Fake Machine added --> Handmade Granite Pizza
+[2018-12-21 09:20:55] info : Test 1 Passed
+[2018-12-21 09:20:56] info : Quitting Browser
+[2018-12-21 09:20:56] info : *************xx*************
+[2018-12-21 09:20:56] info : *************xx*************
+[2018-12-21 09:20:56] info : Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-21 09:20:56] info : *************xx*************
+[2018-12-21 09:20:56] info : Verifications on Maintenance Menu - KDI -> False
+[2018-12-21 09:20:56] info : *************xx*************
+[2018-12-21 09:20:56] info : Verifications on Maintenance Menu - KDog -> False
+[2018-12-21 09:20:56] info : *************xx*************
+[2018-12-21 09:20:56] info : Verify adding/deleting a new Location-> True
+[2018-12-21 09:21:07] info : Executing 1 - Add a new Location
+[2018-12-21 09:21:11] info : Fake Division from Div Test --> benchmark
+[2018-12-21 09:21:16] info : Fake Market from Market Page --> matrix
+[2018-12-21 09:21:26] info : Fake Location from Location page --> Metal
+[2018-12-21 09:21:37] error : 
+Message: New Location was not added: expected 'False' to equal 'True'
+[2018-12-21 09:21:37] error : Test 1 Failed
+[2018-12-21 09:21:38] info : Quitting Browser
+[2018-12-21 09:21:38] info : *************xx*************
+[2018-12-21 09:21:38] info : *************xx*************
+[2018-12-21 09:21:38] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-21 09:21:38] info : *************xx*************
+[2018-12-21 09:21:38] info : Verifications on Search - Event Search page -> False
+[2018-12-21 09:21:38] info : *************xx*************
+[2018-12-21 09:21:38] info : Verifications on Landing Page -> False
+[2018-12-21 09:21:38] info : *************xx*************
+[2018-12-21 09:21:38] info : Verififcation on Kiosk Reports -> False
+[2018-12-21 09:21:38] info : *************xx*************
+[2018-12-21 09:21:38] info : Verifications on Search - Session Search page -> False
+[2018-12-21 09:25:22] info : *************xx*************
+[2018-12-21 09:25:22] info : Verifications on client list and Add/Delete a division -> False
+[2018-12-21 09:25:22] info : *************xx*************
+[2018-12-21 09:25:22] info : Verificaiton on Add Contacts -> True
+[2018-12-21 09:25:31] info : Executing -> 1 - Verify user can add a contact
+[2018-12-21 09:25:35] info : Fake contact to add -> Kris
+[2018-12-21 09:25:41] info : Fake Contact added on the page verified --> Kris
+[2018-12-21 09:25:41] info : Test 1 Passed
+[2018-12-21 09:25:41] info : Executing -> 2 - Verify user can search the contact with FirstName
+[2018-12-21 09:25:43] info : Test 2 Passed
+[2018-12-21 09:25:43] info : Executing -> 3 - Verify user can delete a contact
+[2018-12-21 09:25:53] info : Fake Contact added on the page verified --> Kris
+[2018-12-21 09:25:53] error : 
+Message: Contact could not be deleted: expected 'True' to equal 'False'
+[2018-12-21 09:25:53] error : Test 3 Failed
+[2018-12-21 09:25:54] info : Quitting Browser
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Adding a Kiosk (delete not available in portal) -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on Maintenance Menu - KDI -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on Maintenance Menu - KDog -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verify adding/deleting a new Location-> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on Search - Event Search page -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on Landing Page -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verififcation on Kiosk Reports -> False
+[2018-12-21 09:25:54] info : *************xx*************
+[2018-12-21 09:25:54] info : Verifications on Search - Session Search page -> False
+[2018-12-21 09:27:59] info : *************xx*************
+[2018-12-21 09:27:59] info : Verifications on client list and Add/Delete a division -> False
+[2018-12-21 09:27:59] info : *************xx*************
+[2018-12-21 09:27:59] info : Verificaiton on Add Contacts -> False
+[2018-12-21 09:27:59] info : *************xx*************
+[2018-12-21 09:27:59] info : Adding a Kiosk (delete not available in portal) -> True
+[2018-12-21 09:28:14] info : Executing Test 1 - Add a Kiosk
+[2018-12-21 09:28:18] info : Fake Division from Div Test --> Concrete
+[2018-12-21 09:28:23] info : Fake Market from Market Page --> Paraguay
+[2018-12-21 09:28:32] info : Fake Location from Location page --> Practical
+[2018-12-21 09:28:45] info : Fake Machine added --> Rhode Island
+[2018-12-21 09:28:50] info : Test 1 Passed
+[2018-12-21 09:28:51] info : Quitting Browser
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on Maintenance Menu - KDI -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on Maintenance Menu - KDog -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verify adding/deleting a new Location-> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on Search - Event Search page -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on Landing Page -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verififcation on Kiosk Reports -> False
+[2018-12-21 09:28:51] info : *************xx*************
+[2018-12-21 09:28:51] info : Verifications on Search - Session Search page -> False
+[2018-12-21 13:01:45] info : *************xx*************
+[2018-12-21 13:01:45] info : Verifications on client list and Add/Delete a division -> False
+[2018-12-21 13:01:45] info : *************xx*************
+[2018-12-21 13:01:45] info : Verificaiton on Add Contacts -> False
+[2018-12-21 13:01:45] info : *************xx*************
+[2018-12-21 13:01:45] info : Adding a Kiosk (delete not available in portal) -> True
+[2018-12-21 13:01:57] info : Executing Test 1 - Add a Kiosk
+[2018-12-21 13:02:02] info : Fake Division from Div Test --> discrete
+[2018-12-21 13:02:07] info : Fake Market from Market Page --> parse
+[2018-12-21 13:02:15] info : Fake Location from Location page --> digital
+[2018-12-21 13:02:29] info : Fake Machine added --> Credit Card Account
+[2018-12-21 13:02:34] info : Test 1 Passed

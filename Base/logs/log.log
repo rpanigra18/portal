@@ -1,0 +1,458 @@
+[2018-12-04 10:13:49] info : *************xx*************
+[2018-12-04 10:13:49] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-04 10:13:49] debug : Loading Browser and launching application
+[2018-12-04 10:13:57] verbose : Logging in with valid username/password
+[2018-12-04 10:13:57] debug : Executing findByJs function
+[2018-12-04 10:13:57] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-04 10:13:58] verbose : Waiting on Google Map to load
+[2018-12-04 10:13:58] debug : Executing findByJs function
+[2018-12-04 10:13:58] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-04 10:14:01] info : Executing 1 - Verify the dashboard page Title is Kiosk Portal
+[2018-12-04 10:14:01] info : Test 1 Passed
+[2018-12-04 10:14:01] info : Executing 2 - User have access to Lexar 103
+[2018-12-04 10:14:01] debug : Executing clientAccess in newDivPage with cl - Lexar 103
+[2018-12-04 10:14:01] verbose : Executing findTreeIds function with key -> Lexar 103
+[2018-12-04 10:14:01] debug : Executing findTreeList in Base module
+[2018-12-04 10:14:04] info : Test 2 Passed
+[2018-12-04 10:14:04] info : Executing 3 - Add a division for the User
+[2018-12-04 10:14:04] verbose : Executing adding new division
+[2018-12-04 10:14:04] debug : Arguements passed to AddNewDiv function -> undefined
+[2018-12-04 10:14:06] info : Fake Division from Div Test --> Focused
+[2018-12-04 10:14:06] debug : Executing findByJs function
+[2018-12-04 10:14:06] debug : EXT function executing -> return Ext.ComponentQuery.query("#marketDescription")[0].inputElement.id;
+[2018-12-04 10:14:07] debug : Executing findByJs function
+[2018-12-04 10:14:07] debug : EXT function executing -> return Ext.ComponentQuery.query("#addButton")[0].el.id;
+[2018-12-04 10:14:08] verbose : Waiting on Google Map to load
+[2018-12-04 10:14:08] debug : Executing findByJs function
+[2018-12-04 10:14:08] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-04 10:14:09] verbose : Verifying new Division presence in the navigation list
+[2018-12-04 10:14:09] debug : Executing clientAccess in newDivPage with cl - Focused
+[2018-12-04 10:14:09] verbose : Executing findTreeIds function with key -> Focused
+[2018-12-04 10:14:09] debug : Executing findTreeList in Base module
+[2018-12-04 10:14:12] debug : Pass of fail returned -> True
+[2018-12-04 10:14:12] info : New Division is added
+[2018-12-04 10:14:14] info : Test 3 Passed
+[2018-12-04 10:14:14] info : Executing 4 - Delete the division added for the User
+[2018-12-04 10:14:14] verbose : Waiting on Google Map to load
+[2018-12-04 10:14:14] debug : Executing findByJs function
+[2018-12-04 10:14:14] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-04 10:14:15] verbose : Renavigating to the created division to delete it
+[2018-12-04 10:14:15] debug : Executing clientAccess in newDivPage with cl - Focused
+[2018-12-04 10:14:15] verbose : Executing findTreeIds function with key -> Focused
+[2018-12-04 10:14:15] debug : Executing findTreeList in Base module
+[2018-12-04 10:14:20] debug : Executing findByJs function
+[2018-12-04 10:14:20] debug : EXT function executing -> return Ext.ComponentQuery.query("#yes")[0].el.id;
+[2018-12-04 10:14:21] verbose : Waiting on Google Map to load
+[2018-12-04 10:14:21] debug : Executing findByJs function
+[2018-12-04 10:14:21] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-04 10:14:22] verbose : Verifying new Division presence in the navigation list
+[2018-12-04 10:14:22] debug : Executing clientAccess in newDivPage with cl - Focused
+[2018-12-04 10:14:22] verbose : Executing findTreeIds function with key -> Focused
+[2018-12-04 10:14:22] debug : Executing findTreeList in Base module
+[2018-12-04 10:14:30] error : Error in Tree list function
+[2018-12-04 10:14:30] debug : Warning occured in clientAccess function on newDivisionPage module
+[2018-12-04 10:14:30] debug : Pass of fail returned -> False
+[2018-12-04 10:14:30] info : Test 4 Passed
+[2018-12-04 10:14:31] info : Quitting Browser
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Verificaiton on Add Contacts -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Executing 
+Adding a Kiosk (delete not available in portal) -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Executing 
+Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Executing 
+Verifications on Maintenance Menu - Kdi -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Executing 
+Verifications on Maintenance Menu - KDog -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Verify adding/deleting a new Location-> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Executing 
+Verifications on Search - Event Search page -> False
+[2018-12-04 10:14:31] info : *************xx*************
+[2018-12-04 10:14:31] info : Verifications on Landing Page -> True
+[2018-12-04 10:14:31] debug : Loading Browser and launching application
+[2018-12-04 10:14:36] info : Executing 1 - Validate Page Title is Kiosk Portal
+[2018-12-04 10:14:36] info : Test 1 Passed
+[2018-12-04 10:14:36] info : Executing 2 - Invalid credentials entered
+[2018-12-04 10:14:36] verbose : Fake Name enetred -> Angelica62
+[2018-12-04 10:14:37] debug : Executing findByJs function
+[2018-12-04 10:14:37] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-04 10:14:39] info : Test 2 Pased
+[2018-12-04 10:14:39] info : Executing 3 - Valid Login to the application
+[2018-12-04 10:14:39] debug : Clearing the username and password
+[2018-12-04 10:14:40] debug : Executing findByJs function
+[2018-12-04 10:14:40] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-04 10:14:41] verbose : Waiting on Google Map to load
+[2018-12-04 10:14:41] debug : Executing findByJs function
+[2018-12-04 10:14:41] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-04 10:14:46] info : Test 3 Passed
+[2018-12-04 10:14:47] info : Quitting Browser
+[2018-12-04 10:14:47] info : *************xx*************
+[2018-12-04 10:14:47] info : *************xx*************
+[2018-12-04 10:14:47] info : Executing 
+Verififcation on Kiosk Reports -> False
+[2018-12-04 10:14:47] info : *************xx*************
+[2018-12-04 10:14:47] info : Executing 
+Verifications on Search - Session Search page -> False
+[2018-12-17 11:51:29] info : *************xx*************
+[2018-12-17 11:51:29] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-17 11:51:29] debug : Loading Browser and launching application
+[2018-12-17 11:51:33] verbose : Logging in with valid username/password
+[2018-12-17 11:51:43] error : Error occured in userNameText function on landingPage module
+[2018-12-17 11:51:43] error : Error occured in login function
+[2018-12-17 11:51:43] error : Error launching application
+[2018-12-17 11:51:43] error : 
+Message: Error: Error: Cant locate write Element.v1
+    at Page.write (D:\PortalAutomationJS\portal\node_modules\kioskPortal\test\Base\Base.js:280:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Page.userNameText (D:\PortalAutomationJS\portal\node_modules\kioskPortal\test\Pages\landingPage.js:15:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-12-17 11:51:44] info : Quitting Browser
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Verificaiton on Add Contacts -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Executing 
+Adding a Kiosk (delete not available in portal) -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Executing 
+Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Executing 
+Verifications on Maintenance Menu - Kdi -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Executing 
+Verifications on Maintenance Menu - KDog -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Verify adding/deleting a new Location-> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Executing 
+Verifications on Search - Event Search page -> False
+[2018-12-17 11:51:44] info : *************xx*************
+[2018-12-17 11:51:44] info : Verifications on Landing Page -> True
+[2018-12-17 11:51:44] debug : Loading Browser and launching application
+[2018-12-17 11:51:48] info : Executing 1 - Validate Page Title is Kiosk Portal
+[2018-12-17 11:51:48] error : 
+Message: 'site unavailable' == 'Kiosk Portal'
+[2018-12-17 11:51:48] error : Test 1 Failed
+[2018-12-17 11:51:48] info : Skipping Test 2
+[2018-12-17 11:51:48] error : 
+Message: sync skip
+[2018-12-17 11:51:48] error : Test 2 Failed
+[2018-12-17 11:51:48] info : Skipping Test 3
+[2018-12-17 11:51:48] error : 
+Message: sync skip
+[2018-12-17 11:51:48] error : Test 3 Failed
+[2018-12-17 11:51:49] info : Quitting Browser
+[2018-12-17 11:51:49] info : *************xx*************
+[2018-12-17 11:51:49] info : *************xx*************
+[2018-12-17 11:51:49] info : Executing 
+Verififcation on Kiosk Reports -> False
+[2018-12-17 11:51:49] info : *************xx*************
+[2018-12-17 11:51:49] info : Executing 
+Verifications on Search - Session Search page -> False
+[2018-12-17 13:12:31] info : *************xx*************
+[2018-12-17 13:12:31] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-17 13:12:31] debug : Loading Browser and launching application
+[2018-12-17 13:12:34] error : Error launching application
+[2018-12-17 13:12:34] error : 
+Message: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)
+[2018-12-17 13:12:35] info : Quitting Browser
+[2018-12-17 13:12:35] info : *************xx*************
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Verificaiton on Add Contacts -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Executing 
+Adding a Kiosk (delete not available in portal) -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Executing 
+Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Executing 
+Verifications on Maintenance Menu - Kdi -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Executing 
+Verifications on Maintenance Menu - KDog -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Verify adding/deleting a new Location-> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Executing 
+Verifications on Search - Event Search page -> False
+[2018-12-17 13:12:36] info : *************xx*************
+[2018-12-17 13:12:36] info : Verifications on Landing Page -> True
+[2018-12-17 13:12:36] debug : Loading Browser and launching application
+[2018-12-17 13:12:38] error : Error launching application
+[2018-12-17 13:12:38] error : 
+Message: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)
+[2018-12-17 13:12:39] info : Quitting Browser
+[2018-12-17 13:12:39] info : *************xx*************
+[2018-12-17 13:12:40] info : *************xx*************
+[2018-12-17 13:12:40] info : Executing 
+Verififcation on Kiosk Reports -> False
+[2018-12-17 13:12:40] info : *************xx*************
+[2018-12-17 13:12:40] info : Executing 
+Verifications on Search - Session Search page -> False
+[2018-12-17 13:14:08] info : *************xx*************
+[2018-12-17 13:14:08] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-17 13:14:08] debug : Loading Browser and launching application
+[2018-12-17 13:14:21] verbose : Logging in with valid username/password
+[2018-12-17 13:14:21] debug : Executing findByJs function
+[2018-12-17 13:14:21] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-17 13:14:22] verbose : Waiting on Google Map to load
+[2018-12-17 13:14:22] debug : Executing findByJs function
+[2018-12-17 13:14:22] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:14:26] info : Executing 1 - Verify the dashboard page Title is Kiosk Portal
+[2018-12-17 13:14:26] info : Test 1 Passed
+[2018-12-17 13:14:26] info : Executing 2 - User have access to Lexar 103
+[2018-12-17 13:14:26] debug : Executing clientAccess in newDivPage with cl - Lexar 103
+[2018-12-17 13:14:26] verbose : Executing findTreeIds function with key -> Lexar 103
+[2018-12-17 13:14:26] debug : Executing findTreeList in Base module
+[2018-12-17 13:14:29] info : Test 2 Passed
+[2018-12-17 13:14:29] info : Executing 3 - Add a division for the User
+[2018-12-17 13:14:29] verbose : Executing adding new division
+[2018-12-17 13:14:29] debug : Arguements passed to AddNewDiv function -> undefined
+[2018-12-17 13:14:31] info : Fake Division from Div Test --> Intelligent Metal Soap
+[2018-12-17 13:14:31] debug : Executing findByJs function
+[2018-12-17 13:14:31] debug : EXT function executing -> return Ext.ComponentQuery.query("#marketDescription")[0].inputElement.id;
+[2018-12-17 13:14:32] debug : Executing findByJs function
+[2018-12-17 13:14:32] debug : EXT function executing -> return Ext.ComponentQuery.query("#addButton")[0].el.id;
+[2018-12-17 13:14:33] verbose : Waiting on Google Map to load
+[2018-12-17 13:14:33] debug : Executing findByJs function
+[2018-12-17 13:14:33] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:14:34] verbose : Verifying new Division presence in the navigation list
+[2018-12-17 13:14:34] debug : Executing clientAccess in newDivPage with cl - Intelligent Metal Soap
+[2018-12-17 13:14:34] verbose : Executing findTreeIds function with key -> Intelligent Metal Soap
+[2018-12-17 13:14:34] debug : Executing findTreeList in Base module
+[2018-12-17 13:14:38] debug : Pass of fail returned -> True
+[2018-12-17 13:14:38] info : New Division is added
+[2018-12-17 13:14:39] info : Test 3 Passed
+[2018-12-17 13:14:39] info : Executing 4 - Delete the division added for the User
+[2018-12-17 13:14:39] verbose : Waiting on Google Map to load
+[2018-12-17 13:14:39] debug : Executing findByJs function
+[2018-12-17 13:14:39] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:14:40] verbose : Renavigating to the created division to delete it
+[2018-12-17 13:14:40] debug : Executing clientAccess in newDivPage with cl - Intelligent Metal Soap
+[2018-12-17 13:14:40] verbose : Executing findTreeIds function with key -> Intelligent Metal Soap
+[2018-12-17 13:14:40] debug : Executing findTreeList in Base module
+[2018-12-17 13:14:44] debug : Executing findByJs function
+[2018-12-17 13:14:44] debug : EXT function executing -> return Ext.ComponentQuery.query("#yes")[0].el.id;
+[2018-12-17 13:14:45] verbose : Waiting on Google Map to load
+[2018-12-17 13:14:45] debug : Executing findByJs function
+[2018-12-17 13:14:45] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:14:46] verbose : Verifying new Division presence in the navigation list
+[2018-12-17 13:14:46] debug : Executing clientAccess in newDivPage with cl - Intelligent Metal Soap
+[2018-12-17 13:14:46] verbose : Executing findTreeIds function with key -> Intelligent Metal Soap
+[2018-12-17 13:14:46] debug : Executing findTreeList in Base module
+[2018-12-17 13:14:50] error : Error in Tree list function
+[2018-12-17 13:14:50] debug : Warning occured in clientAccess function on newDivisionPage module
+[2018-12-17 13:14:50] debug : Pass of fail returned -> False
+[2018-12-17 13:14:50] info : Test 4 Passed
+[2018-12-17 13:14:51] info : Quitting Browser
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Verificaiton on Add Contacts -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Executing 
+Adding a Kiosk (delete not available in portal) -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Executing 
+Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Executing 
+Verifications on Maintenance Menu - Kdi -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Executing 
+Verifications on Maintenance Menu - KDog -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Verify adding/deleting a new Location-> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Executing 
+Verifications on Search - Event Search page -> False
+[2018-12-17 13:14:51] info : *************xx*************
+[2018-12-17 13:14:51] info : Verifications on Landing Page -> True
+[2018-12-17 13:14:51] debug : Loading Browser and launching application
+[2018-12-17 13:14:57] info : Executing 1 - Validate Page Title is Kiosk Portal
+[2018-12-17 13:14:57] info : Test 1 Passed
+[2018-12-17 13:14:57] info : Executing 2 - Invalid credentials entered
+[2018-12-17 13:14:57] verbose : Fake Name enetred -> Darrel29
+[2018-12-17 13:14:57] debug : Executing findByJs function
+[2018-12-17 13:14:57] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-17 13:15:00] info : Test 2 Pased
+[2018-12-17 13:15:00] info : Executing 3 - Valid Login to the application
+[2018-12-17 13:15:00] debug : Clearing the username and password
+[2018-12-17 13:15:00] debug : Executing findByJs function
+[2018-12-17 13:15:00] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-17 13:15:02] verbose : Waiting on Google Map to load
+[2018-12-17 13:15:02] debug : Executing findByJs function
+[2018-12-17 13:15:02] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:15:06] info : Test 3 Passed
+[2018-12-17 13:15:07] info : Quitting Browser
+[2018-12-17 13:15:07] info : *************xx*************
+[2018-12-17 13:15:07] info : *************xx*************
+[2018-12-17 13:15:07] info : Executing 
+Verififcation on Kiosk Reports -> False
+[2018-12-17 13:15:07] info : *************xx*************
+[2018-12-17 13:15:07] info : Executing 
+Verifications on Search - Session Search page -> False
+[2018-12-17 13:30:40] info : *************xx*************
+[2018-12-17 13:30:40] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-17 13:30:40] debug : Loading Browser and launching application
+[2018-12-17 13:30:52] verbose : Logging in with valid username/password
+[2018-12-17 13:30:52] debug : Executing findByJs function
+[2018-12-17 13:30:52] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-17 13:30:53] verbose : Waiting on Google Map to load
+[2018-12-17 13:30:53] debug : Executing findByJs function
+[2018-12-17 13:30:53] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:30:56] info : Executing 1 - Verify the dashboard page Title is Kiosk Portal
+[2018-12-17 13:30:56] info : Test 1 Passed
+[2018-12-17 13:30:56] info : Executing 2 - User have access to Lexar 103
+[2018-12-17 13:30:56] debug : Executing clientAccess in newDivPage with cl - Lexar 103
+[2018-12-17 13:30:56] verbose : Executing findTreeIds function with key -> Lexar 103
+[2018-12-17 13:30:56] debug : Executing findTreeList in Base module
+[2018-12-17 13:30:59] info : Test 2 Passed
+[2018-12-17 13:30:59] info : Executing 3 - Add a division for the User
+[2018-12-17 13:30:59] verbose : Executing adding new division
+[2018-12-17 13:30:59] debug : Arguements passed to AddNewDiv function -> undefined
+[2018-12-17 13:31:01] info : Fake Division from Div Test --> Electronics
+[2018-12-17 13:31:01] debug : Executing findByJs function
+[2018-12-17 13:31:01] debug : EXT function executing -> return Ext.ComponentQuery.query("#marketDescription")[0].inputElement.id;
+[2018-12-17 13:31:02] debug : Executing findByJs function
+[2018-12-17 13:31:02] debug : EXT function executing -> return Ext.ComponentQuery.query("#addButton")[0].el.id;
+[2018-12-17 13:31:03] verbose : Waiting on Google Map to load
+[2018-12-17 13:31:03] debug : Executing findByJs function
+[2018-12-17 13:31:03] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:31:04] verbose : Verifying new Division presence in the navigation list
+[2018-12-17 13:31:04] debug : Executing clientAccess in newDivPage with cl - Electronics
+[2018-12-17 13:31:04] verbose : Executing findTreeIds function with key -> Electronics
+[2018-12-17 13:31:04] debug : Executing findTreeList in Base module
+[2018-12-17 13:31:06] debug : Pass of fail returned -> True
+[2018-12-17 13:31:06] info : New Division is added
+[2018-12-17 13:31:07] info : Test 3 Passed
+[2018-12-17 13:31:07] info : Executing 4 - Delete the division added for the User
+[2018-12-17 13:31:07] verbose : Waiting on Google Map to load
+[2018-12-17 13:31:07] debug : Executing findByJs function
+[2018-12-17 13:31:07] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:31:08] verbose : Renavigating to the created division to delete it
+[2018-12-17 13:31:08] debug : Executing clientAccess in newDivPage with cl - Electronics
+[2018-12-17 13:31:08] verbose : Executing findTreeIds function with key -> Electronics
+[2018-12-17 13:31:08] debug : Executing findTreeList in Base module
+[2018-12-17 13:31:12] debug : Executing findByJs function
+[2018-12-17 13:31:12] debug : EXT function executing -> return Ext.ComponentQuery.query("#yes")[0].el.id;
+[2018-12-17 13:31:13] verbose : Waiting on Google Map to load
+[2018-12-17 13:31:13] debug : Executing findByJs function
+[2018-12-17 13:31:13] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:31:14] verbose : Verifying new Division presence in the navigation list
+[2018-12-17 13:31:14] debug : Executing clientAccess in newDivPage with cl - Electronics
+[2018-12-17 13:31:14] verbose : Executing findTreeIds function with key -> Electronics
+[2018-12-17 13:31:14] debug : Executing findTreeList in Base module
+[2018-12-17 13:31:18] error : Error in Tree list function
+[2018-12-17 13:31:18] debug : Warning occured in clientAccess function on newDivisionPage module
+[2018-12-17 13:31:18] debug : Pass of fail returned -> False
+[2018-12-17 13:31:18] info : Test 4 Passed
+[2018-12-17 13:31:19] info : Quitting Browser
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verificaiton on Add Contacts -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Adding a Kiosk (delete not available in portal) -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verifications on Maintenance Menu - KDI -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verifications on Maintenance Menu - KDog -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verify adding/deleting a new Location-> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verifications on Search - Event Search page -> False
+[2018-12-17 13:31:19] info : *************xx*************
+[2018-12-17 13:31:19] info : Verifications on Landing Page -> True
+[2018-12-17 13:31:19] debug : Loading Browser and launching application
+[2018-12-17 13:31:27] info : Executing 1 - Validate Page Title is Kiosk Portal
+[2018-12-17 13:31:28] info : Test 1 Passed
+[2018-12-17 13:31:28] info : Executing 2 - Invalid credentials entered
+[2018-12-17 13:31:28] verbose : Fake Name enetred -> Ariane.Nikolaus63
+[2018-12-17 13:31:28] debug : Executing findByJs function
+[2018-12-17 13:31:28] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-17 13:31:31] info : Test 2 Pased
+[2018-12-17 13:31:31] info : Executing 3 - Valid Login to the application
+[2018-12-17 13:31:31] debug : Clearing the username and password
+[2018-12-17 13:31:31] debug : Executing findByJs function
+[2018-12-17 13:31:31] debug : EXT function executing -> return Ext.ComponentQuery.query("#loginButton")[0].buttonElement.id;
+[2018-12-17 13:31:32] verbose : Waiting on Google Map to load
+[2018-12-17 13:31:32] debug : Executing findByJs function
+[2018-12-17 13:31:32] debug : EXT function executing -> return Ext.ComponentQuery.query("#kioskGoogleMap")[0].el.id;
+[2018-12-17 13:31:37] info : Test 3 Passed
+[2018-12-17 13:31:38] info : Quitting Browser
+[2018-12-17 13:31:38] info : *************xx*************
+[2018-12-17 13:31:38] info : *************xx*************
+[2018-12-17 13:31:38] info : Verififcation on Kiosk Reports -> False
+[2018-12-17 13:31:38] info : *************xx*************
+[2018-12-17 13:31:38] info : Verifications on Search - Session Search page -> False
+[2018-12-17 13:38:42] info : *************xx*************
+[2018-12-17 13:38:42] info : Verifications on client list and Add/Delete a division -> True
+[2018-12-17 13:38:55] info : Executing 1 - Verify the dashboard page Title is Kiosk Portal
+[2018-12-17 13:38:55] info : Test 1 Passed
+[2018-12-17 13:38:55] info : Executing 2 - User have access to Lexar 103
+[2018-12-17 13:38:58] info : Test 2 Passed
+[2018-12-17 13:38:58] info : Executing 3 - Add a division for the User
+[2018-12-17 13:39:00] info : Fake Division from Div Test --> technologies
+[2018-12-17 13:39:05] info : New Division is added
+[2018-12-17 13:39:06] info : Test 3 Passed
+[2018-12-17 13:39:06] info : Executing 4 - Delete the division added for the User
+[2018-12-17 13:39:17] error : Error in Tree list function
+[2018-12-17 13:39:17] info : Test 4 Passed
+[2018-12-17 13:39:18] info : Quitting Browser
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verificaiton on Add Contacts -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Adding a Kiosk (delete not available in portal) -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verifications on Maintenance Menu - AttractLoop -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verifications on Maintenance Menu - KDI -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verifications on Maintenance Menu - KDog -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verify adding/deleting a new Location-> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verifications on client list and Add/Delete a Market -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verifications on Search - Event Search page -> False
+[2018-12-17 13:39:18] info : *************xx*************
+[2018-12-17 13:39:18] info : Verifications on Landing Page -> True
+[2018-12-17 13:39:25] info : Executing 1 - Validate Page Title is Kiosk Portal
+[2018-12-17 13:39:26] info : Test 1 Passed
+[2018-12-17 13:39:26] info : Executing 2 - Invalid credentials entered
+[2018-12-17 13:39:29] info : Test 2 Pased
+[2018-12-17 13:39:29] info : Executing 3 - Valid Login to the application
+[2018-12-17 13:39:34] info : Test 3 Passed
+[2018-12-17 13:39:35] info : Quitting Browser
+[2018-12-17 13:39:35] info : *************xx*************
+[2018-12-17 13:39:36] info : *************xx*************
+[2018-12-17 13:39:36] info : Verififcation on Kiosk Reports -> False
+[2018-12-17 13:39:36] info : *************xx*************
+[2018-12-17 13:39:36] info : Verifications on Search - Session Search page -> False

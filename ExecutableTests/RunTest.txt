@@ -1,0 +1,41 @@
+1 - Verifications on Landing Page						---------------Skip
+	1.1 - Validate Page Title is Kiosk Portal
+	1.2 - Invalid credentials entered
+	1.3 - Valid Login to the application
+2 - Verifications on client list and Add/Delete a division 		------Skip
+	2.1 - Verify the dashboard page Title is Kiosk Portal
+	2.2 - User have access to Lexar 103
+	2.3 - Add a division for the User
+	2.4 - Delete the division added for the User
+3 - Verifications on client list and Add/Delete a Market 			---Skip
+	3.1 - Add a Market
+	3.2 - Delete a Market
+4 - Verify adding/deleting a new Location 						-------Skip
+	4.1 - Add a new Location
+	4.2 - Delete an existing Location
+5 - Adding a Kiosk (delete not available in portal) 				---Run
+	5.1 - Add a Kiosk
+6 - Verificaiton on Add Contacts	 							-------Skip
+	6.1 - Verify user can add a contact
+	6.2 - Verify user can search the contact with firstName
+	6.3 - Verify added contact can be deleted
+7 - Verification on Kiosk Events feed 						----------- Skip
+	7.1 - Verify kiosk event feed page loads with active events
+8 - Verifications on Search - Event Search page 				------- Skip
+	8.1 - Verify the current event search pulls the current events
+	8.2 - Verify all the events are OPEN
+9 - Verifications on Search - Session Search page				 ------ Skip
+	9.1	- Verify the session search pulls result for a week
+	9.2 - Verify session events add up for all payment types
+10 - Verifications on Maintenance Menu - KDI 				--------- Skip
+	10.1 - Verfiy available KDI grid populates
+	10.2 - Verify new KDI can be added
+11 - Verifications on Maintenance Menu - KDog 				--------- Skip
+	11.1 - Verfiy available KDog grid populates
+	11.2 - Verify new KDog can be added
+12 - Verifications on Maintenance Menu - AttractLoop 		--------- Skip
+	12.1 - Verfiy available AttractLoop grid populates
+	12.2 - Verify new AttractLoop can be added
+13 - Verififcation on Kiosk Reports							--------- Skip
+	13.1 - Verfiy kiosk reports grid loads
+	13.2 - Verify kiosk count adds up as expected in the summary
